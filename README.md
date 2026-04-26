@@ -2,8 +2,8 @@
 
 A neural-network-based system that recognizes the contents of a 3×3 storage rack from camera images, maps each detected object to its grid position using bounding box coordinate analysis, and logs the inventory state to an Azure SQL database.
 
-[!NOTE]
-The model is trained on a specific type of storage rack and specific objects. Detection accuracy on other rack configurations or object types is not guaranteed.
+> [!IMPORTANT]
+> The model is trained on a specific type of storage rack and specific objects. Detection accuracy on other rack configurations or object types is not guaranteed.
 
 ## Motivation
 
